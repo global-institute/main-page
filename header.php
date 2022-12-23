@@ -147,6 +147,26 @@ $identitas_jabatan_pengunjung = $data_identitas_pengunjung['jabatan'];
                             <li><i class="menu-icon ti-export"></i><a href="<?php echo $base_link; ?>tampil-data-export.php">Data Export</a></li>
                         </ul>
                     </li>
+                    <?php
+                    if($page == "biodata"){
+                    ?>
+                    <li class="menu-item-has-children dropdown active">
+                    <?php
+                    } else {
+                    ?>
+                    <li class="menu-item-has-children dropdown">
+                    <?php
+                    }
+                    ?>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon ti-angle-double-right"></i>Biodata Anggota</a>
+                        <ul class="sub-menu children dropdown-menu">
+                            <li><i class="menu-icon ti-user"></i><a href="<?php echo $base_link; ?>fachrul.php">Fachrul Reza</a></li>
+                            <li><i class="menu-icon ti-user"></i><a href="<?php echo $base_link; ?>yohannes.php">Yohannes Petrick</a></li>
+                            <li><i class="menu-icon ti-user"></i><a href="<?php echo $base_link; ?>william.php">William Chico</a></li>
+                            <li><i class="menu-icon ti-user"></i><a href="<?php echo $base_link; ?>eka.php">Muhammad Eka</a></li>
+                            <li><i class="menu-icon ti-user"></i><a href="<?php echo $base_link; ?>aghniya.php">Aghniya Aulia</a></li>
+                        </ul>
+                    </li>
                 </ul>
             </div><!-- /.navbar-collapse -->
         </nav>

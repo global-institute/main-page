@@ -1,9 +1,9 @@
 <?php
 	error_reporting(0);
-	$base_link = "https://parcell.co.id/kel1/";
+	$base_link = "http://localhost/main-page/";
     $base_name = "Sistem Inventory";
 	date_default_timezone_set('Asia/Jakarta'); 
-	$conn = mysqli_connect("localhost", "parcellc_kel1", "!=ADlqcYS{p?", "parcellc_kel1");
+	$conn = mysqli_connect("localhost", "root", "", "sistem_inventory");
 	$operating_system = $_SERVER['HTTP_USER_AGENT'];
 	$date = date("Y-m-d");
 	$time = date("H:i:s");
