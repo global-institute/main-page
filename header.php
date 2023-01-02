@@ -160,7 +160,7 @@ $identitas_jabatan_pengunjung = $data_identitas_pengunjung['jabatan'];
                     ?>
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon ti-angle-double-right"></i>Biodata Anggota</a>
                         <ul class="sub-menu children dropdown-menu">
-                            <li><i class="menu-icon ti-user"></i><a href="<?php echo $base_link; ?>fachrul.php">Fachrul Reza</a></li>
+                            <li><i class="menu-icon ti-user"></i><a href="<?php echo $base_link; ?>Reza.php">Fachrul Reza</a></li>
                             <li><i class="menu-icon ti-user"></i><a href="<?php echo $base_link; ?>yohannes.php">Yohannes Petrick</a></li>
                             <li><i class="menu-icon ti-user"></i><a href="<?php echo $base_link; ?>william.php">William Chico</a></li>
                             <li><i class="menu-icon ti-user"></i><a href="<?php echo $base_link; ?>eka.php">Muhammad Eka</a></li>
