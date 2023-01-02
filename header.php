@@ -164,7 +164,7 @@ $identitas_jabatan_pengunjung = $data_identitas_pengunjung['jabatan'];
                             <li><i class="menu-icon ti-user"></i><a href="<?php echo $base_link; ?>yohannes.php">Yohannes Petrick</a></li>
                             <li><i class="menu-icon ti-user"></i><a href="<?php echo $base_link; ?>william.php">William Chico</a></li>
                             <li><i class="menu-icon ti-user"></i><a href="<?php echo $base_link; ?>eka.php">Muhammad Eka</a></li>
-                            <li><i class="menu-icon ti-user"></i><a href="<?php echo $base_link; ?>aghniya.php">Aghniya Aulia</a></li>
+                            <li><i class="menu-icon ti-user"></i><a href="<?php echo $base_link; ?>niya.php">Aghniya Aulia</a></li>
                         </ul>
                     </li>
                 </ul>
