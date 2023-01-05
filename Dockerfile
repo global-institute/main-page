@@ -6,5 +6,5 @@ LABEL Maintainer="Yohannes Petrick" \
 email = "yohannes.patrick03@gmail.com" \
 version = "1.0"
 
-COPY php/src /var/www/html
+COPY . /var/www/html
 EXPOSE 80 443
